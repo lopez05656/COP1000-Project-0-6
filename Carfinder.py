@@ -70,11 +70,6 @@ def searchForVehicles():
      print(line)
      time.sleep(3)
      menu()
-  if line.find(Search) != -1:
-     SearchSuccessful = True
-     print(line)
-     time.sleep(3)
-     menu()
 
  if SearchSuccessful == False:
   print(Search, "is not an authorized vehicle. Please try again...") 
